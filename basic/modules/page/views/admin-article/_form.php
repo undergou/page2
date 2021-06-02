@@ -27,7 +27,7 @@ use yii\widgets\ActiveForm;
     <?=$form->field($model, 'rating')->textInput()?>
 
     <?=$form->field($model, 'category')->dropDownList($categories, [
-            'id'=>'article-category_title'
+            'id'=>'article-category_her'
     ])?>
 
     <?=$form->field($model, 'tags')->dropDownList($tags, ['multiple' => 'multiple'])?>
